@@ -14,7 +14,7 @@ body {
 .number {
   line-height: 500px;
   text-align: center;
-  font-size: 70px;
+  font-size: 150px;
 }
 
 .diamonds,
@@ -52,11 +52,11 @@ body {
 }
 
 .card::before {
-  top: -3rem;
+  top: 3px;
   left: 10px;
 }
 .card::after {
-  bottom: 3rem;
+  bottom: 3px;
   right: 10px;
   transform: scaleY(-1);
 }
